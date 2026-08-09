@@ -1,0 +1,35 @@
+# --- Python / Backend ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+*.db
+*.sqlite3
+.pytest_cache/
+
+# --- Environment secrets ---
+.env
+backend/.env
+
+# --- Node / Frontend ---
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# --- Data / uploaded content ---
+data/uploads/*
+data/processed/*
+data/chroma/*
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+!data/chroma/.gitkeep
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
